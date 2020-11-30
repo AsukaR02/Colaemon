@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C958102574DAB10034C20D /* ColaemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9580F2574DAB10034C20D /* ColaemonApp.swift */; };
+		00C958122574DAB10034C20D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C958112574DAB10034C20D /* ContentView.swift */; };
+		00C958142574DAB20034C20D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C958132574DAB20034C20D /* Assets.xcassets */; };
+		00C958172574DAB20034C20D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C958162574DAB20034C20D /* Preview Assets.xcassets */; };
+		00C958222574DAB30034C20D /* ColaemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C958212574DAB30034C20D /* ColaemonTests.swift */; };
+		00C9582D2574DAB30034C20D /* ColaemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9582C2574DAB30034C20D /* ColaemonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00C9581E2574DAB30034C20D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C958042574DAB10034C20D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00C9580B2574DAB10034C20D;
+			remoteInfo = Colaemon;
+		};
+		00C958292574DAB30034C20D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C958042574DAB10034C20D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00C9580B2574DAB10034C20D;
+			remoteInfo = Colaemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C9580C2574DAB10034C20D /* Colaemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colaemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C9580F2574DAB10034C20D /* ColaemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColaemonApp.swift; sourceTree = "<group>"; };
+		00C958112574DAB10034C20D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00C958132574DAB20034C20D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00C958162574DAB20034C20D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00C958182574DAB20034C20D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C9581D2574DAB30034C20D /* ColaemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColaemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C958212574DAB30034C20D /* ColaemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColaemonTests.swift; sourceTree = "<group>"; };
+		00C958232574DAB30034C20D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C958282574DAB30034C20D /* ColaemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColaemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C9582C2574DAB30034C20D /* ColaemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColaemonUITests.swift; sourceTree = "<group>"; };
+		00C9582E2574DAB30034C20D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C958092574DAB10034C20D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C9581A2574DAB30034C20D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C958252574DAB30034C20D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C958032574DAB10034C20D = {
+			isa = PBXGroup;
+			children = (
+				00C9580E2574DAB10034C20D /* Colaemon */,
+				00C958202574DAB30034C20D /* ColaemonTests */,
+				00C9582B2574DAB30034C20D /* ColaemonUITests */,
+				00C9580D2574DAB10034C20D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00C9580D2574DAB10034C20D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C9580C2574DAB10034C20D /* Colaemon.app */,
+				00C9581D2574DAB30034C20D /* ColaemonTests.xctest */,
+				00C958282574DAB30034C20D /* ColaemonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C9580E2574DAB10034C20D /* Colaemon */ = {
+			isa = PBXGroup;
+			children = (
+				00C9580F2574DAB10034C20D /* ColaemonApp.swift */,
+				00C958112574DAB10034C20D /* ContentView.swift */,
+				00C958132574DAB20034C20D /* Assets.xcassets */,
+				00C958182574DAB20034C20D /* Info.plist */,
+				00C958152574DAB20034C20D /* Preview Content */,
+			);
+			path = Colaemon;
+			sourceTree = "<group>";
+		};
+		00C958152574DAB20034C20D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00C958162574DAB20034C20D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00C958202574DAB30034C20D /* ColaemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				00C958212574DAB30034C20D /* ColaemonTests.swift */,
+				00C958232574DAB30034C20D /* Info.plist */,
+			);
+			path = ColaemonTests;
+			sourceTree = "<group>";
+		};
+		00C9582B2574DAB30034C20D /* ColaemonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00C9582C2574DAB30034C20D /* ColaemonUITests.swift */,
+				00C9582E2574DAB30034C20D /* Info.plist */,
+			);
+			path = ColaemonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00C9580B2574DAB10034C20D /* Colaemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C958312574DAB30034C20D /* Build configuration list for PBXNativeTarget "Colaemon" */;
+			buildPhases = (
+				00C958082574DAB10034C20D /* Sources */,
+				00C958092574DAB10034C20D /* Frameworks */,
+				00C9580A2574DAB10034C20D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colaemon;
+			productName = Colaemon;
+			productReference = 00C9580C2574DAB10034C20D /* Colaemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00C9581C2574DAB30034C20D /* ColaemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C958342574DAB30034C20D /* Build configuration list for PBXNativeTarget "ColaemonTests" */;
+			buildPhases = (
+				00C958192574DAB30034C20D /* Sources */,
+				00C9581A2574DAB30034C20D /* Frameworks */,
+				00C9581B2574DAB30034C20D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00C9581F2574DAB30034C20D /* PBXTargetDependency */,
+			);
+			name = ColaemonTests;
+			productName = ColaemonTests;
+			productReference = 00C9581D2574DAB30034C20D /* ColaemonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00C958272574DAB30034C20D /* ColaemonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C958372574DAB30034C20D /* Build configuration list for PBXNativeTarget "ColaemonUITests" */;
+			buildPhases = (
+				00C958242574DAB30034C20D /* Sources */,
+				00C958252574DAB30034C20D /* Frameworks */,
+				00C958262574DAB30034C20D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00C9582A2574DAB30034C20D /* PBXTargetDependency */,
+			);
+			name = ColaemonUITests;
+			productName = ColaemonUITests;
+			productReference = 00C958282574DAB30034C20D /* ColaemonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00C958042574DAB10034C20D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					00C9580B2574DAB10034C20D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					00C9581C2574DAB30034C20D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 00C9580B2574DAB10034C20D;
+					};
+					00C958272574DAB30034C20D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 00C9580B2574DAB10034C20D;
+					};
+				};
+			};
+			buildConfigurationList = 00C958072574DAB10034C20D /* Build configuration list for PBXProject "Colaemon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00C958032574DAB10034C20D;
+			productRefGroup = 00C9580D2574DAB10034C20D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00C9580B2574DAB10034C20D /* Colaemon */,
+				00C9581C2574DAB30034C20D /* ColaemonTests */,
+				00C958272574DAB30034C20D /* ColaemonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00C9580A2574DAB10034C20D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C958172574DAB20034C20D /* Preview Assets.xcassets in Resources */,
+				00C958142574DAB20034C20D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C9581B2574DAB30034C20D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C958262574DAB30034C20D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C958082574DAB10034C20D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C958122574DAB10034C20D /* ContentView.swift in Sources */,
+				00C958102574DAB10034C20D /* ColaemonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C958192574DAB30034C20D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C958222574DAB30034C20D /* ColaemonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C958242574DAB30034C20D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C9582D2574DAB30034C20D /* ColaemonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00C9581F2574DAB30034C20D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00C9580B2574DAB10034C20D /* Colaemon */;
+			targetProxy = 00C9581E2574DAB30034C20D /* PBXContainerItemProxy */;
+		};
+		00C9582A2574DAB30034C20D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00C9580B2574DAB10034C20D /* Colaemon */;
+			targetProxy = 00C958292574DAB30034C20D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00C9582F2574DAB30034C20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00C958302574DAB30034C20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00C958322574DAB30034C20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Colaemon/Preview Content\"";
+				DEVELOPMENT_TEAM = T8A8N6TW97;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Colaemon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zacn.soulsource.Colaemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00C958332574DAB30034C20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Colaemon/Preview Content\"";
+				DEVELOPMENT_TEAM = T8A8N6TW97;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Colaemon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zacn.soulsource.Colaemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00C958352574DAB30034C20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8A8N6TW97;
+				INFOPLIST_FILE = ColaemonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zacn.soulsource.ColaemonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colaemon.app/Colaemon";
+			};
+			name = Debug;
+		};
+		00C958362574DAB30034C20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8A8N6TW97;
+				INFOPLIST_FILE = ColaemonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zacn.soulsource.ColaemonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colaemon.app/Colaemon";
+			};
+			name = Release;
+		};
+		00C958382574DAB30034C20D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8A8N6TW97;
+				INFOPLIST_FILE = ColaemonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zacn.soulsource.ColaemonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Colaemon;
+			};
+			name = Debug;
+		};
+		00C958392574DAB30034C20D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8A8N6TW97;
+				INFOPLIST_FILE = ColaemonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zacn.soulsource.ColaemonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Colaemon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00C958072574DAB10034C20D /* Build configuration list for PBXProject "Colaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C9582F2574DAB30034C20D /* Debug */,
+				00C958302574DAB30034C20D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C958312574DAB30034C20D /* Build configuration list for PBXNativeTarget "Colaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C958322574DAB30034C20D /* Debug */,
+				00C958332574DAB30034C20D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C958342574DAB30034C20D /* Build configuration list for PBXNativeTarget "ColaemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C958352574DAB30034C20D /* Debug */,
+				00C958362574DAB30034C20D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C958372574DAB30034C20D /* Build configuration list for PBXNativeTarget "ColaemonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C958382574DAB30034C20D /* Debug */,
+				00C958392574DAB30034C20D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00C958042574DAB10034C20D /* Project object */;
+}
